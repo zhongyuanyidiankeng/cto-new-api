@@ -3,7 +3,7 @@ builder = "NIXPACKS"
 nixpacksVersion = "1.27.0"
 
 [deploy]
-startCommand = "deno run -A --unstable-kv src/main.ts"
+startCommand = "deno run -A src/main.ts"
 ignorePatterns = [
   ".git",
   "**/node_modules"
